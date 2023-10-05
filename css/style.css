@@ -5,6 +5,10 @@
     font-family: Arial, sans-serif;
 }
 
+body{
+    background-color: #efc1ff;
+}
+
 .main{
     display: flex;
     align-items: center;
@@ -16,15 +20,16 @@
     width: 20%;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #a47ac1;
     border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 0 0 10 #00000033;
+    background-color: #f6d9ff;
+    box-shadow: 0 0 10 #8b62ac54;
 }
 
 h1{
     font-size: 24px;
     margin-bottom: 10px;
+    color: #6c458b;
 }
 
 p{
@@ -35,12 +40,18 @@ input[type="text"]{
     width: 80%;
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid #ccc;
+    border: 1px solid #a47ac1;
+    background-color: #f0c1ff75;
     border-radius: 5px;
 }
 
+input[type="text"]:hover{
+    background-color: #efc1ff;
+    border: 1px solid #a47ac1;
+}
+
 button{
-    background-color: #007bff;
+    background-color: #8b62ac;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -49,10 +60,19 @@ button{
 }
 
 button:hover{
-    background-color: #0056b3;
+    background-color: #a47ac1;
 }
 
 #address-info{
     margin-top: 20px;
     text-align: left;
+}
+
+#address-info h2{
+    padding: 2%;
+    color: #6c458b;
+}
+
+#address-info p{
+    padding: 2%;
 }
