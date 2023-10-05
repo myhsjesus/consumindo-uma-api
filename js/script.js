@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const addressInfo = document.getElementById('address-info');
 
     searchButton.addEventListener('click', () => {
-        const cep = cepInput.ariaValueMax.replace(/\D/g,''); //remove caracteres não numéricos
+        const cep = cepInput.value.replace(/\D/g,''); //remove caracteres não numéricos
         
         if (cep.length !== 8){
             alert('Por favor, insira um CEP válido com 8 dígitos.');
